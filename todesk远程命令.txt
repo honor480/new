@@ -1,0 +1,443 @@
+﻿Changeme_123
+Gmcc#1234
+
+TeamViewer
+thinkpade470
+Gmcc#1234
+
+==============
+22307
+ 22074
+
+查询
+:cm-get-lanautoecc
+ 
+设置打开
+:cm-set-lanautoecc:open
+=====
+现在新设备上网管，只能用root-Changeme_123登录。登录上后必须改密码。跟程涛和协维商量过，密码改成OSC@1510/1625nm。即用root（Changeme_456）上网管。上网管后增加一个DC用户dc_user（Changeme_456）
+:sm-edit-curpass:"Changeme_123","OSC@1510/1625nm";
+:logout
+##更改用户密码
+
+:sm-edit-curpass:"Changeme_123","OSC@1510/1625nm";
+
+===
+
+#新增网元用户
+
+:sm-add-user:"dc_user","Changeme_456","admin",disable;
+:sm-add-user:"szhw","vc-otn&OSU*2M","admin",disable;
+:sm-add-user:"utraffic","Changeme_789","admin",disable;
+
+=====================
+=====================
+:lognew:"szhw","Changeme_123"
+:login:"root","Changeme_123"
+:login:"root","Changeme_456"
+:login:"root","OgTzN135_956"
+
+:login:"root","Password_123"
+:cfg-get-devicetype
+:ver
+##更改用户密码
+
+:sm-edit-curpass:"Changeme_123","OSC@1510/1625nm";
+
+
+##:sm-edit-:"Changeme_123","OSC@1510/1625nm";
+
+Changeme_123
+:sm-edit-curpass:
+
+:cfg-get-devicetype
+##查询主控版本
+:sftm-query-pkgver
+:cfg-get-board
+:cfg-get-phybd
+:cfg-add-board
+
+:alm-get-curdata-ext:0,ALL,0
+:cfg-get-nestate
+:cfg-verify
+:cfg-get-nestate
+:cfg-get-nename
+:cfg-set-nename:64,"48020-广宽云谷智算中心-OSN1800VPRO-广宽云谷智算中心专用环"
+:cfg-set-nename:64,"44040-海珠区教育局（电路广州市海珠区同福东路486号-OSN9800M24-智能OTN"
+:cfg-set-nename:64,"44040-海珠区教育局同福东路486号-OSN9800M24-智能OTN"
+:cfg-set-nename:64,"44075-南珑工业园-OSN9800M24-HB31"
+:cfg-set-nename:64,"44065-神岗（搬迁）广从北路-HW-OSN9800M24-HB48"
+:cfg-set-nename:64,"44066-神岗（搬迁）广从北路-HW-OSN9800M12-HB48"
+
+:cfg-set-nename:64,"44018-公益-OSN9800M24-智能OTN"
+:cfg-set-nename:64,"44022-天河3-OSN9800U32-智能OTN"
+:cfg-set-nename:64,"47940-黄埔3-OSN1800VPRO-波分腾讯永顺IDC机房-黄埔3专线环"
+:cfg-set-nename:64,"47933-民科园-OSN1800VPRO-波分西德胜民科园专用环"
+:cfg-set-nename:64,"45997-民科园-OSN9800M24-波分西德胜民科园专用环"
+:cfg-set-nename:64,"48052-明美（广期所备）-OSN1800VPRO-广期所专用环"
+:cfg-set-nename:64,"48039-中移系统增城永和汇聚光放-ONS1800IIPRO-公安专用环"
+"
+
+
+##:cfg-set-nename:64,"45519-PBS-BFNFJDPBSZXJRBFH1-工程"
+##设置网元位置
+:cfg-get-neposition
+:cfg-set-neposition:"广州"
+:cfg-set-neposition:"GD-GZ"
+:cm-get-neid
+##:cm-set-neid:0x9b842
+:cm-set-neid:0x9BA42
+:cm-set-neid:0x9B2e3
+:cm-set-neid:0x9BBB4
+:cm-set-neid:0x9BBA7
+
+
+:lognew:"szhw","Changeme_123"
+
+:cm-get-ip
+:cm-set-ip:129.9.187.180
+:cm-set-ip:129.9.187.181
+:cm-set-ip:129.9.187.63
+:cm-set-ip:129.20.59.77
+:cm-set-ip:129.19.179.162
+:cm-set-ip:129.20.20.47
+:cm-set-ip:129.20.100.242
+:cm-set-ip:129.9.187.167
+
+:lognew:"szhw","Changeme_123"
+
+:cm-get-submask
+:cm-set-submask:255.255.0.0
+:cm-set-submask:255.255.255.224
+#子网掩码28位240
+:cm-set-submask:255.255.255.240
+:lognew:"szhw","Changeme_123"
+:cm-get-gateway
+:cm-set-gateway:129.19.200.1
+:cm-set-gateway:129.20.72.225
+:cm-set-gateway:0.0.0.0
+#新增网元用户
+
+:sm-add-user:"dc_user","Changeme_456","admin",disable;
+:sm-add-user:"szhw","vc-otn&OSU*2M","admin",disable;
+:sm-add-user:"utraffic","Changeme_789","admin",disable;
+
+#查询
+:cm-get-lanautoecc
+:cm-get-eccrotute
+#设置打开
+:cm-set-lanautoecc:open
+:cm-set-lanautoecc:close
+:cfg-get-devicetype
+:cm-get-gateway
+:cm-get-submask 
+:cm-get-ip
+:cfg-get-nestate
+:sftm-query-pkgver
+:cfg-get-devicetype
+
+========================
+
+45645 ip:129.20.18.37/27  网关:129.20.18.33  G0/27
+====================
+##:sm-edit-:"Changeme_123","OSC@1510/1625nm";
+
+:lognew:"szhw","Changeme_123"
+cm-get-ip
+:cm-set-ip:129.20.23.200
+
+:lognew:"szhw","Changeme_123"
+
+:cm-get-submask
+:cm-set-submask:255.255.255.224
+:cm-get-gateway
+:cm-set-gateway:129.20.74.161
+
+
+:alm-get-crudata-ext:
+=========================================
+IPOP
+<PTN7900-2>set neid 130183      //设置ID
+<PTN7900-2>dis neid  查询id
+
+<PTN7900-2>display ip interface GigabitEthernet 0/0/0           \\---------查看设备NEIP、ID 网关，命令不需要打完比如打“display”只需打上“d”再按键盘上的 “tab”键便自动补全
+
+<PTN7900-2>ne-ip 129.0.0.1 16    //设置网元IP
+<PTN7900-2>sys    //进入系统模式 system-view imm
+<PTN7900-2>dcn    //进入DCN模式
+<PTN7900-2>gateway add 129.1.1.1           //设置网关，在DCN模式下
+<PTN7900-2>comm  //打命令 comm （确认）
+<PTN7900-2>dis this
+
+在7900创建静态路由命令：
+系统视图下： ip route-static vpn-instance __dcn_vpn__ 10.201.24.199(目的服务器ip) 32(掩码)  gig 0/0/0 129.19.81.1 (下一跳地址) pre 60（路由优先级）
+完整命令：ip route-staic vpn-instance __dcn_vpn__ 10.201.24.199 32 gig 0/0/0 129.19.81.1  pre 60
+
+
+129.20.61.29
+
+129.9.144.184:1400
+
+输入之后再 打命令 comm （确认）
+       129.154.130.70:1400       0926C7  129.9.0.4:1400 0926C8   129.9.0.13:1400  0926BB
+
+=================================================
+琶洲12楼网管监控室右侧进门第二台
+用户名：limin
+密码：Gmcc#123456789
+创建日期: 2019-06-19
+行号 发运行号 站点编码 站点名称 Item编码 描述 单位 数量 开工日期 完工日期
+706 8812103590 网络-数通盒式整机-硬件督导-/台 PCS 300 2019-06-27 2020-05-15
+导-/台
+广州
+4
+725 8812103615 网络-数通单板-硬件督导-/单板 PCS 1000 2019-06-27 2020-05-15
+板
+广州
+1cx5x6
+2
+765 8812103599 网络-数通PTN/ATN盒式整机-软件调测-/台 PCS 300 2019-06-27 2020-05-15
+机-软件调测-/台
+广州汇聚
+1
+769 8812103614 网络-数通单板-软件调测-/单板 PCS 1000 2019-06-27 2020-05-15
+板
+广州
+3
+备注:
+1. 本订单受双方签署的
+
+
+创建日期: 2019-06-19
+行号 发运行号 站点编码 站点名称 Item编码 描述 单位 数量 开工日期 完工日期
+706 8812103590 网络-数通盒式整机-硬件督导-/台 PCS 300 2019-06-27 2020-05-15
+导-/台
+广州
+4
+725 8812103615 网络-数通单板-硬件督导-/单板 PCS 1000 2019-06-27 2020-05-15
+板
+广州
+2
+765 8812103599 网络-数通PTN/ATN盒式整机-软件调测-/台 PCS 300 2019-06-27 2020-05-15
+机-软件调测-/台
+广州
+1
+769 8812103614 网络-数通单板-软件调测-/单板 PCS 1000 2019-06-27 2020-05-15
+板
+广州
+3
+备注:
+1. 本订单受双方签
+
+
+创建日期: 2019-06-19
+行号 发运行号 站点编码 站点名称 Item编码 描述 单位 数量 开工日期 完工日期
+706 8812103590 网络-数通盒式整机-硬件督导-/台 PCS 300 2019-06-27 2020-05-15
+导-/台
+广州
+4
+725 8812103615 网络-数通单板-硬件督导-/单板 PCS 1000 2019-06-27 2020-05-15
+板
+广州
+2
+765 8812103599 网络-数通PTN/ATN盒式整机-软件调测-/台 PCS 300 2019-06-27 2020-05-15
+机-软件调测-/台
+广州
+1
+769 8812103614 网络-数通单板-软件调测-/单板 PCS 1000 2019-06-27 2020-05-15
+板
+广州
+3
+备注:
+1. 本订单受双方签署的
+
+
+创建日期: 2019-06-19
+行号 发运行号 站点编码 站点名称 Item编码 描述 单位 数量 开工日期 完工日期
+706 8812103590 网络-数通盒式整机-硬件督导-/台 PCS 300 2019-06-27 2020-05-15
+导-/台
+广州
+4
+725 8812103615 网络-数通单板-硬件督导-/单板 PCS 1500 2019-06-27 2020-05-15
+板
+广州
+2
+765 8812103599 网络-数通PTN/ATN盒式整机-软件调测-/台 PCS 300 2019-06-27 2020-05-15
+机-软件调测-/台
+广州
+1
+769 8812103614 网络-数通单板-软件调测-/单板 PCS 1500 2019-06-27 2020-05-15
+板
+广州
+3
+备注:
+1. 本订单受双方签署的
+
+
+
+
+
+
+
+
+创建日期: 2019-06-19
+行号 发运行号 站点编码 站点名称 Item编码 描述 单位 数量 开工日期 完工日期
+706 8812103590 网络-数通盒式整机-硬件督导-/台 PCS 301 2019-06-27 2020-05-15
+导-/台
+广州
+4
+725 8812103615 网络-数通单板-硬件督导-/单板 PCS 1000 2019-06-27 2020-05-15
+板
+广州
+2
+765 8812103599 网络-数通PTN/ATN盒式整机-软件调测-/台 PCS 301 2019-06-27 2020-05-15
+机-软件调测-/台
+广州
+1
+769 8812103614 网络-数通单板-软件调测-/单板 PCS 1000 2019-06-27 2020-05-15
+板
+广州
+3
+备注:
+1. 本订单受双方签署的所
+
+
+
+
+
+创建日期: 2019-06-19
+行号 发运行号 站点编码 站点名称 Item编码 描述 单位 数量 开工日期 完工日期
+709 8812103587 网络-数通框式整机-硬件督导-/台 PCS 216 2019-06-27 2020-05-15
+导-/台
+广州
+4
+725 8812103615 网络-数通单板-硬件督导-/单板 PCS 1650 2019-06-27 2020-05-15
+板
+广州
+2
+761 8812103595 网络-数通PTN框式整机-软件调测-/台 PCS 216 2019-06-27 2020-05-15
+件调测-/台
+广州
+1
+769 8812103614 网络-数通单板-软件调测-/单板 PCS 1650 2019-06-27 2020-05-15
+板
+广州
+3
+备注:
+1. 本订单受双方签署的所有
+
+
+
+创建日期: 2019-06-17
+行号 发运行号 站点编码 站点名称 Item编码 描述 单位 数量 开工日期 完工日期
+706 8812103590 网络-数通盒式整机-硬件督导-/台 PCS 720 2019-06-27 2020-04-13
+导-/台
+广州
+4
+725 8812103615 网络-数通单板-硬件督导-/单板 PCS 2160 2019-06-27 2020-04-13
+板
+广州
+2
+765 8812103599 网络-数通PTN/ATN盒式整机-软件调测-/台 PCS 720 2019-06-27 2020-04-13
+机-软件调测-/台
+广州
+1
+769 8812103614 网络-数通单板-软件调测-/单板 PCS 2160 2019-06-27 2020-04-13
+板
+广州
+=====================
+====一干 
+
+:lognew:"szhw","Changeme_123"
+:login:"root","Changeme_123"
+:login:"root","Changeme_456"
+:login:"root","OgTzN135_956"
+
+:login:"root","Password_123"
+:cfg-get-devicetype
+:ver
+##更改用户密码
+
+#:sm-edit-curpass:"Changeme_123","OSC@1510/1625nm";
+:sm-edit-curpass:"Changeme_123","Changeme_456";
+
+##:sm-edit-:"Changeme_123","Changeme_456";
+
+Changeme_123
+:sm-edit-curpass:
+
+:cfg-get-devicetype
+##查询主控版本
+:sftm-query-pkgver
+:cfg-get-board
+:cfg-get-phybd
+:cfg-add-board
+
+:alm-get-curdata-ext:0,ALL,0
+:cfg-get-nestate
+:cfg-verify
+:cfg-get-nestate
+:cfg-get-nename
+:cfg-set-nename:64,"34021-广州增城石滩2OA-备"
+:cfg-set-nename:64,"34028-广州增城石滩2OA1-备"
+
+
+##:cfg-set-nename:64,"45519-PBS-BFNFJDPBSZXJRBFH1-工程"
+##设置网元位置
+:cfg-get-neposition
+:cfg-set-neposition:"广州"
+:cfg-set-neposition:"GD-GZ"
+:cm-get-neid
+##:cm-set-neid:0x9b842
+:cm-set-neid:0x984E5
+:cm-set-neid:0x984EC
+
+
+
+:lognew:"szhw","Changeme_123"
+
+:cm-get-ip
+:cm-set-ip:129.9.132.229
+:cm-set-ip:129.9.132.236
+
+
+:lognew:"szhw","Changeme_123"
+
+:cm-get-submask
+:cm-set-submask:255.255.0.0
+:cm-set-submask:255.255.255.224
+
+:lognew:"szhw","Changeme_123"
+:cm-get-gateway
+:cm-set-gateway:129.19.200.1
+:cm-set-gateway:129.20.79.1
+:cm-set-gateway:0.0.0.0
+
+#查询
+:cm-get-lanautoecc
+ 
+#设置打开
+:cm-set-lanautoecc:open
+:cm-set-lanautoecc:close
+:cfg-get-devicetype
+:cm-get-gateway
+:cm-get-submask 
+:cm-get-ip
+:cfg-get-nestate
+:sftm-query-pkgver
+:cfg-get-devicetype
+
+========================
+
+45645 ip:129.20.18.37/27  网关:129.20.18.33  G0/27
+====================
+##:sm-edit-:"Changeme_123","Changeme_456";
+
+:lognew:"szhw","Changeme_123"
+cm-get-ip
+:cm-set-ip:129.20.23.200
+
+
+3
+备注:SRM348940-19
+1. 本订单受双方签署的所有适用的协议的约束，无论签署是以书面形式还是通过华为供应商门

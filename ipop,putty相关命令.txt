@@ -1,0 +1,40 @@
+display optical-module extend information interface 10GE 3/0/1      //查询光口命令
+
+ethernet link-type hybrid     //设置LAG属性
+
+macloop inloop\outloop       //设置端口环回
+
+
+display elabel 12            //查询单板制造信息 诊断视图
+
+display optical elabel interface 10GE 12/0/7   //查询光模块信息
+
+<PTN7900-2>set neid 130183      //设置ID  129.179.123.57:1400
+<PTN7900-2>dis neid  查询id
+
+<PTN7900-2>display ip interface GigabitEthernet 0/0/0           \\---------查看设备NEIP、ID 网关，命令不需要打完比如打“display”只需打上“d”再按键盘上的 “tab”键便自动补全
+
+<PTN7900-2>ne-ip 129.0.0.1 16    //设置网元IP
+<PTN7900-2>sys    //进入系统模式 system-view imm
+<PTN7900-2>dcn    //进入DCN模式
+<PTN7900-2>gateway add 129.1.1.1           //设置网关，在DCN模式下
+<PTN7900-2>comm  //打命令 comm （确认）
+<PTN7900-2>dis this
+
+在7900创建静态路由命令：
+系统视图下： ip route-static vpn-instance __dcn_vpn__ 10.201.24.199(目的服务器ip) 32(掩码)  gig 0/0/0 129.19.81.1 (下一跳地址) pre 60（路由优先级）
+完整命令：ip route-staic vpn-instance __dcn_vpn__ 10.201.24.199 32 gig 0/0/0 129.19.81.1  pre 60
+
+
+129.20.61.29
+
+129.9.144.184:1400
+
+输入之后再 打命令 comm （确认）
+       129.154.130.70:1400       0926C7  129.9.0.4:1400 0926C8   129.9.0.13:1400  0926BB
+
+
+129.151.162.123:1400    130362
+
+129.151.162.152:1400     130364
+
